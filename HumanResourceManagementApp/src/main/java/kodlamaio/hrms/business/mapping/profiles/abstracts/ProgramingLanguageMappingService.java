@@ -1,0 +1,13 @@
+package kodlamaio.hrms.business.mapping.profiles.abstracts;
+
+import kodlamaio.hrms.entities.concretes.ProgramingLanguage;
+import kodlamaio.hrms.entities.dtos.programingLanguage.ProgramingLanguageAddDto;
+import kodlamaio.hrms.entities.dtos.programingLanguage.ProgramingLanguageUpdateDto;
+
+public interface ProgramingLanguageMappingService {
+
+	ProgramingLanguage programingLanguageAddDtoToProgramingLanguage(ProgramingLanguageAddDto programingLanguageAddDto);
+	
+	ProgramingLanguage programingLanguageUpdateDtoToProgramingLanguage(ProgramingLanguageUpdateDto programingLanguageUpdateDto);
+
+}
